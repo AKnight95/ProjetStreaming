@@ -12,6 +12,15 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,100&display=swap" rel="stylesheet">
+
+    
+
     <!-- Font Awesome -->
     <link
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -43,10 +52,10 @@
 
     <header class="shadow-5-strong">
 
-        <div id="user">
+        <a href="profil.html" id="user">
             <h3>Username</h3>
             <i class="fa-solid fa-circle-user fa-xl"></i>
-        </div>
+        </a>
 
         <figure id="imgFondHeader">
             <img src="/flux/images/5492792-silent-hill-revelation-wallpapers.jpg" alt="Silent Hill: Revelation" srcset="">
@@ -55,7 +64,7 @@
         <article>
             <figcaption>
                 <h1>Silent Hill: Revelation</h1>
-                <h2>2012 ‧ Horreur/Mystère ‧ 1h 35m</h2>
+                <h2 id="description">2012 ‧ Horreur/Mystère ‧ 1h 35m</h2>
                 <p>Depuis son plus jeune âge, Heather Mason a l’habitude de changer d’adresse très souvent avec son père. Sans vraiment savoir pourquoi, elle fuit. Pourtant, cette fois, elle est piégée. Pour sauver celui qui avait toujours réussi à la protéger et découvrir qui elle est vraiment, Heather va devoir affronter un cauchemar qui devient de plus en plus réel…Silent Hill.</p>
                 <button type="button" class="btn btn-danger">Regarder</button>
             </figcaption>
@@ -67,7 +76,7 @@
         
     </header>
 
-    <section>
+    <section id="suggestions">
         <h2>A découvrir</h2>
 
         <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
@@ -179,7 +188,77 @@
 
         <h2>Téléchargements</h2>
 
+        <div id ="downloadCards" class="card-group">
+            <div class="card">
+              <img src="/flux/images/a02a141e3e9b0d9235ac79ed76eb511302a8d767.jpg" class="card-img-top" alt="Hollywood Sign on The Hill"/>
+              <i class="fa-solid fa-download"></i>
+            </div>
+            <div class="card">
+              <img src="/flux/images/133613.jpg" class="card-img-top" alt="Palm Springs Road"/>
+              <i class="fa-solid fa-download"></i>
+            </div>
+            <div class="card">
+              <img src="/flux/images/4190459.jpg" class="card-img-top" alt="Los Angeles Skyscrapers"/>
+              <i class="fa-solid fa-download"></i>
+            </div>
+
+            <div class="card">
+                <img src="/flux/images/Affames.jpg" class="card-img-top" alt="Los Angeles Skyscrapers"/>
+                <i class="fa-solid fa-download"></i>
+              </div>
+
+              
+          </div>
+
     </section>
+
+    <footer class="text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+      
+            <!-- Google -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-google"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+      
+            <!-- Github -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2020 Copyright:
+          <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+        
 
     <script src="/flux/flux.js"></script>
 </body>

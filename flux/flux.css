@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     color: white;
+    font-family: 'Kanit', sans-serif;
 }
 
 a, a:hover, a:visited, a:active
@@ -9,6 +10,20 @@ a, a:hover, a:visited, a:active
 	color:white !important;
 	text-decoration:none;
     transition: 1.5 ease;
+}
+
+h1{
+    font-family: 'Oxanium', cursive;
+}
+
+h2{
+    text-transform: uppercase;
+    font-family: 'Oxanium', cursive;
+}
+
+#description{
+    color: grey;
+    font-size: 15px;
 }
 
 #fondEcran{
@@ -82,10 +97,16 @@ header article figure img{
 #user{
     position: absolute;
     top: 0;
-    right: 3%;
+    right: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 2rem;
+    transition: 1.5s ease;
+}
+
+#user:hover{
+    color: #aa0505;
 }
 
 #user h3{
@@ -95,6 +116,15 @@ header article figure img{
 
 
 /*CAROUSEL*/
+
+section{
+    margin-top: 10rem;
+}
+
+section h2{
+    text-align: center;
+    margin-bottom: 5rem;
+}
 
 .carousel{
     position: relative;
@@ -198,6 +228,29 @@ header article figure img{
     .fa-circle-play:hover{
         transform: scale(1.5);
     }
+
+#downloadCards .card{
+    background-color: transparent !important;
+}
+
+#downloadCards img{
+    height: 100%;
+    filter: blur(2px);
+}
+
+.fa-download{
+    position: absolute;
+    font-size: 5rem;
+    top: 50%; left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%);
+    color: #aa0505;
+    transition: 1.5s ease;
+    cursor: pointer;
+}
+
+footer{
+    background-color: transparent;
+}
   
   
 
