@@ -1,0 +1,107 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.titre{
+    margin-left: 50px;
+}
+
+.containerHead .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: bottom 50px;
+}
+
+.containerHead .card .left{
+   flex: 0 0 30%;
+   padding: 20px;
+   text-align: center;
+}
+
+.containerHead .card .right{
+    height:300px;
+    width: 400px;
+    margin-top: 5px;
+    background-color: rgb(13, 87, 245);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.containerHead .card .right h1{
+    margin-top: 50px;
+}
+
+.containerHead .card .right button{
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background: #fff;
+    border-radius: 999px;
+}
+
+.preference .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 25vw);
+    grid-template-rows: repeat(2, 20vw);
+    grid-gap: 15px;
+}
+
+.preference .gallery img {
+    height: 200px;
+    width: 300px;
+    border-radius: 12px;
+}
+
+.containerpreference {
+    display: inline-block;
+    position: relative;
+}
+.containerpreference .text {
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 30%;
+    color: white;
+    width: 70%;
+}
+
+.historique .gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 16vw);
+    grid-gap: 15px;
+}
+
+.historique .gallery img {
+    height: 200px;
+    width: 200px;
+}
+
+.containerhistorique {
+    display: inline-block;
+    position: relative;
+}
+.containerhistorique .text {
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 30%;
+    color: white;
+    width: 70%;
+}
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+    font-size: x-large;
+}
