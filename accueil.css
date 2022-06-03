@@ -1,0 +1,69 @@
+* {
+    font-family: sans-serif;
+}
+
+.tete {
+    width: 100%;
+    height: 515px;
+
+    background-image: url("img/film1.jpg");
+    background-size: 100% 565px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloc-tete {
+    margin: 0 auto;
+}
+
+.bloc-tete h1 {
+    color: white;
+    font-size: 65px;
+}
+
+.bloc-tete-search {
+    margin: 0 auto;
+    width: 350px;
+    height: 55px;
+
+    display: flex;
+}
+
+.bloc-tete-search input {
+    width: 350px;
+    height: 53px;
+    padding-left: 15px;
+
+    border-radius: 15px 0px 0px 15px;
+    border: none;
+    font-size: 20px;
+}
+
+.bloc-tete-search button {
+    border-radius: 0px 15px 15px 0px;
+    border: none;
+
+    width: 70px;
+
+    background-color: #b7c4ea;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bloc-tete-connect {
+    margin: 0 auto;
+    width: 220px;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.bloc-tete-connect a {
+    text-decoration: none underline;
+    color: white;
+}
